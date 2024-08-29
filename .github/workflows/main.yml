@@ -3,7 +3,7 @@ name: Deploy Namespace to Kubernetes
 on:
   push:
     branches:
-      - main  # Trigger on push to a specific branch
+      - justinefv-patch-1  # Trigger on push to a specific branch
 
 jobs:
   deploy:
